@@ -1,0 +1,6 @@
+services:
+  db:
+    image: postgres:16-alpine
+    volumes: ['postgres-demo:/var/lib/postgresql/data']
+volumes:
+  postgres-demo:
